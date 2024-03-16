@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;     
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: #000;
+}
+
+
+.lang-box-logo select {
+    padding: 5px 20px;
+    text-align: center;
+    background-color: #3a323266;
+    color: rgb(248, 248, 248);
+    border: 0.5px solid #ffffff74;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Ubuntu;
+}
+
+.sign-in-button a {
+
+    padding: 7px 15px;
+    text-align: center;
+    background-color: #e50914;
+    color: rgb(248, 248, 248);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Ubuntu;
+    text-decoration: none;
+}
+
+.navtop {
+    height: 100px;
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 220px;
+}
+
+.menus {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.email-box {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding-bottom: 200px;
+
+}
+
+.email-box .mail input {
+    box-sizing: border-box;
+    padding: 20px 135px;
+    border: 0.5px solid #ffffff66;
+    border-radius: 5px;
+    background-color: #1b181899;
+
+
+}
+
+.email-box a {
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 25px;
+    border: 1px solid #000;
+    padding: 14px 28px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+
+
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+header .main-box .heading p{
+    font-size: 1.25em;
+    padding:  15px;
+    font-weight: bold;
+}
+
+
+.main-box .main-heading h1 {
+    font-size: 4em;
+    width: 800px;
+    text-align: center;
+    line-height: 80px;
+    padding-top: 25px;
+    margin: 0;
+}
+
+header .image img{
+    position: relative;
+    z-index: -10;
+    bottom: 1150px;
+}
+
+header {
+    background-color: #00000011;
+    background: linear-gradient(rgba(0, 0, 0, 0.858) 2%, rgba(0, 0, 0, 0.676)20%, rgba(0, 0, 0, 0.898));
+    overflow: hidden;
+    height: 960px;
+}
+
+.main-border {
+    height: 200px;
+    width: 99vw;
+    margin-bottom: 10px;
+}
+
+.main-border .back {
+    background: linear-gradient(to right, rgb(72, 2, 65), red, rgb(72, 2, 65));
+    height: 100px;
+    display: flex;
+    z-index: -1;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.main-border .front {
+    height: 100px;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    display: flex;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    position: relative;
+    bottom: 94px;
+}
+
+main .big-box {
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1200px;
+    margin: 100px auto 25px auto;
+
+}
+
+
+main .big-box .main-heading {
+    width: 1200px;
+    display: flex;
+    justify-content: start;
+}
+
+main .big-box .main-heading h1 {
+    font-size: 2em;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+main .big-box .heading h3 {
+    font-size: 2em;
+    width: 500px;
+    padding-bottom: 18px;
+}
+
+main .big-box .text p {
+    width: 500px;
+color: #ffffff8f;
+}
+
+main .big-box .box {
+    box-sizing: border-box;
+    height: 370px;
+    width: 1200px;
+    display: flex;
+    background: linear-gradient(to left, rgba(29, 6, 55, 0.848), rgba(138, 57, 120, 0.34) );
+    border-radius: 15px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    overflow: hidden;
+    margin-bottom: 40px;
+    padding-top: 40px;
+
+}
+
+.big-box-bg {
+    position: relative;
+    left: 150px;
+    bottom: 140px;
+}
+
+main .big-box .box .items {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding-top: 80px;
+    padding-left: 50px;
+
+}
+
+main .small-boxes .main-heading {
+    width: 1200px;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 15px;
+}
+
+main .small-boxes .main-heading h1 {
+    font-size: 2em;
+}
+
+main .small-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .small-boxes .boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1200px;
+    gap: 17px;
+}
+
+main .small-boxes .box {
+    box-sizing: border-box;
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    background: linear-gradient(to bottom right, rgba(92, 75, 165, 0.294) 50%,rgba(138, 57, 120, 0.34));
+    padding: 30px 25px;
+
+}
+
+main .small-boxes .box h3 {
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+main .small-boxes .box .text{
+    color: #ffffff8f;
+}
+main .faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .faq .main-heading {
+    width: 1200px;
+    display: flex;
+    align-items: start;
+}
+
+main .faq .main-heading h1 {
+    margin-top: 70px;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+main .faq .faq-boxes {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main .faq .faq-boxes .faq-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 930px;
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.144);
+    padding: 20px 25px ;
+}
+
+main .faq .faq-boxes .faq-box:hover {
+    background-color: rgba(255, 255, 255, 0.247);
+}
+
+main .faq .faq-boxes .faq-box .heading h4 {
+    font-size: 1.5em;
+    font-weight: normal;
+
+}
+
+main .email-box-big {
+    width: 1200px;
+    margin: 70px auto 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+main .email-box-big .email-box{
+    padding-bottom: 0px;
+}
+main .email-box-big .email-box input{
+    padding: 20px 300px;
+    border-radius: 5px;
+    border: 0.5px solid #ffffff66;
+}
+
+
+footer .bottom{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 1200px;
+    margin: 0px auto;
+    padding: 0 45px;
+    color: #ffffff8f;
+}
+footer .bottom .questions-call-box{
+
+    padding-bottom: 50px;
+}
+
+footer .bottom .questions-call-box a{
+    color: #ffffff8f;
+}
+footer .link-keywords{
+    width: 920px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 50px;
+    
+}
+
+footer .link-keywords .link-keyword a{
+    font-size: 15px;
+    color: #ffffff8f;
+}
+
+footer .bottom .lang-box{
+    margin-bottom: 50px;
+}
+footer .bottom .text{
+    margin-bottom: 100px;
+    font-size: 15px;
+}
